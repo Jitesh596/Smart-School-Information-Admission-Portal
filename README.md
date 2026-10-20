@@ -1,0 +1,141 @@
+# Smart School Information & Admission Portal
+
+A modern, responsive **school management and online admission portal** built with React, Vite, Tailwind CSS, and Firebase.
+
+## ✨ Features
+
+* 🏫 Modern public school website
+* 🎓 Student & parent portal
+* 📝 Online admission application
+* 📄 Document upload & application tracking
+* 🔐 Student & Admin authentication
+* 🛡️ Role-based Admin dashboard
+* 📢 Notice & event management
+* 👨‍🏫 Faculty management
+* 📚 Course management
+* 🏢 Campus facilities management
+* 🖼️ Gallery & achievements management
+* ⚙️ Complete CRUD operations
+* 🌙 Dark/Light mode
+* 📱 Fully responsive design
+* 🔥 Firebase Authentication, Firestore & Storage
+* 💾 LocalStorage demo mode
+
+## 🛠️ Tech Stack
+
+* **Frontend:** React 18, Vite
+* **Styling:** Tailwind CSS
+* **Routing:** React Router
+* **Icons:** Lucide React
+* **Backend:** Firebase
+* **Database:** Firestore
+* **Authentication:** Firebase Auth
+* **Storage:** Firebase Storage
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Jitesh596/Smart-School-Information-Admission-Portal.git
+cd Smart-School-Information-Admission-Portal
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the URL shown in your terminal, usually:
+
+```text
+http://localhost:3000
+```
+
+### 4. Production Build
+
+```bash
+npm run build
+```
+
+## 🔥 Firebase Setup
+
+Create a Firebase project and enable:
+
+* Firebase Authentication
+* Firestore Database
+* Firebase Storage
+
+Then create a `.env` file using `.env.example` and add your Firebase configuration.
+
+```env
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
+> If Firebase is not configured, the application can use its built-in LocalStorage demo mode.
+
+## 👤 Demo Accounts
+
+**Admin**
+
+```text
+Email: admin@example.com
+Password: admin123
+```
+
+**Student**
+
+```text
+Email: student@example.com
+Password: student123
+```
+
+## 📂 Main Modules
+
+```text
+Public Website
+├── Home
+├── Notices
+├── Events
+├── Courses
+├── Faculty
+├── Facilities
+├── Gallery
+├── Achievements
+└── Contact
+
+Student Portal
+├── Dashboard
+├── Profile
+├── Admission Application
+└── My Applications
+
+Admin Portal
+├── Dashboard
+├── Applications
+├── Students
+├── Notices
+├── Events
+├── Faculty
+├── Courses
+├── Facilities
+├── Gallery
+├── Achievements
+└── School Information
+```
+
+## 📜 License
+
+This project is developed for **educational and academic purposes**.
